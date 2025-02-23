@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Girlfriend's Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Lightbox CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+<body>
+    <header>
+        <h1>My Girlfriend's Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="#photos">Photos</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#audios">Audios</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Photos Section -->
+        <section id="photos" class="category">
+            <h2>Photos</h2>
+            <div class="gallery" id="photos-gallery">
+                <!-- Photos will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <!-- Videos Section -->
+        <section id="videos" class="category">
+            <h2>Videos</h2>
+            <div class="gallery" id="videos-gallery">
+                <!-- Videos will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <!-- Audios Section -->
+        <section id="audios" class="category">
+            <h2>Audios</h2>
+            <div class="gallery" id="audios-gallery">
+                <!-- Audios will be dynamically loaded here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Made with ❤️ by [Your Name]</p>
+    </footer>
+
+    <!-- Lightbox JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
